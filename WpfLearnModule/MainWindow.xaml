@@ -5,8 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfLearnModule"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="VOA. Let's learn English with Anna Mateo" Height="600" Width="600">
     <Grid>
-        
+        <ComboBox x:Name="cbLessonSelect" HorizontalAlignment="Left" Margin="40,51,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="lbLessonSelect" Content="Выберите урок" HorizontalAlignment="Left" Margin="40,20,0,0" VerticalAlignment="Top"/>
+
+        <MediaElement Name="VideoControl" Width="400" Height ="400"
+                      LoadedBehavior="Manual" UnloadedBehavior="Stop">
+        </MediaElement>
+        <Button x:Name="btnPlay" Content="Воспроизвести" HorizontalAlignment="Left" Margin="77,525,0,0" VerticalAlignment="Top" Width="101" Click="btnPlay_Click"/>
+        <Button x:Name="btnStop" Content="Стоп" HorizontalAlignment="Left" Margin="198,525,0,0" VerticalAlignment="Top" Width="101" Click="btnStop_Click"/>
+        <Button x:Name="btnPause" Content="Пауза" HorizontalAlignment="Left" Margin="325,525,0,0" VerticalAlignment="Top" Width="101" Click="btnPause_Click"/>
     </Grid>
 </Window>
