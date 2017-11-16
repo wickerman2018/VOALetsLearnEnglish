@@ -16,5 +16,8 @@
         <Button x:Name="btnPlay" Content="Воспроизвести" HorizontalAlignment="Left" Margin="77,525,0,0" VerticalAlignment="Top" Width="101" Click="btnPlay_Click"/>
         <Button x:Name="btnStop" Content="Стоп" HorizontalAlignment="Left" Margin="198,525,0,0" VerticalAlignment="Top" Width="101" Click="btnStop_Click"/>
         <Button x:Name="btnPause" Content="Пауза" HorizontalAlignment="Left" Margin="325,525,0,0" VerticalAlignment="Top" Width="101" Click="btnPause_Click"/>
+        <Button x:Name="btnWordTrain" Content="Тренировать слова" HorizontalAlignment="Left" Margin="231,53,0,0" VerticalAlignment="Top" Width="130"/>
+        <Button x:Name="btnGrammar" Content="Грамматическая справка" HorizontalAlignment="Left" Margin="384,53,0,0" VerticalAlignment="Top" Width="148"/>
+        <TextBox x:Name="tbSub" HorizontalAlignment="Left" Height="23" Margin="77,497,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="349"/>
     </Grid>
 </Window>
